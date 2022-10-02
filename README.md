@@ -35,4 +35,5 @@ Aplikasi simple yang akan running spring-boot yang terkoneksi dengan kafka di da
       Lalu Build image aplikasi hikari-kafka-docker `docker build -t hikari-kafka:v1 .`
       Create container `docker container create  --name hikari-kafka -p9090:8080 -e KAFKA=kafka:9092 hikari-kafka:v1`
       Cek container `docker ps -a`
+      Start container `docker container start hikari-kafka`
       
